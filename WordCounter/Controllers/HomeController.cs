@@ -21,7 +21,8 @@ namespace RepeatCounter.Controllers
             string phraseVal = Request.Form["phrase"];
             string checkVal = Request.Form["check"];
             RepeatCounterCreator newRepeatCounterCreator = new RepeatCounterCreator(phraseVal, checkVal);
-            int model = RepeatCounterCreator.CountTool.CountStringOccurences(phraseVal, checkVal);
+            int target = RepeatCounterCreator.CountTool.CountStringOccurences(phraseVal, checkVal);
+            string model = target.ToString() + " is the number of times " + "'" + checkVal + "'" + " appears in the phrase "+ "'" + phraseVal + "'" + ".";
             return View("Index", model);
         }
     }

@@ -17,6 +17,13 @@
       <button type="submit" class="button">Check!</button>
   </div>
   <div class="container">
+    @if (@Model == null)
+    {
+      <p>You have not entered a phrase and word to check its frequency.</p>
+    }
+    else
+    {
       <p>@Model</p>
+    }
   </div>
 </body>
