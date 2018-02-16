@@ -1,0 +1,30 @@
+body {
+  background-image: url("https://78.media.tumblr.com/46fed13a2759e42a27a4055738e22cb2/tumblr_obfosi3vKB1vc3140o1_500.gif");
+  background-color: black;
+  background-size: cover;
+  background-repeat: none;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.button {
+  background-image: url("https://78.media.tumblr.com/46fed13a2759e42a27a4055738e22cb2/tumblr_obfosi3vKB1vc3140o1_500.gif");
+  color: white;
+  padding: 16px;
+  margin-top: 12px;
+  border-radius: 120px;
+}
+
+.button:hover {
+  filter: drop-shadow(2px 2px 32px white);
+}
+
+.result {
+  font-size: 48px;
+}

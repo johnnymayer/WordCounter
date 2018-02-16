@@ -8,15 +8,23 @@
     <title>WordCounter</title>
 </head>
 <body>
+  <h1>WordCounter</h1>
+  <h2>A simple MVC web app for your word counting needs.</h2>
   <div class="container">
     <form action="/result" method="post">
       <label for="phrase">Enter a phrase: </label>
+      <br>
       <input name="phrase" type="text" required="true">
+      <br>
       <label for="check">Enter a word to see its frequency in your phrase: </label>
+      <br>
       <input name="check" type="text" required="true">
+      <div class="container">
       <button type="submit" class="button">Check!</button>
+    </div>
   </div>
   <div class="container">
+    <span class="result">
     @if (@Model == null)
     {
       <p>You have not entered a phrase and word to check its frequency.</p>
@@ -25,5 +33,6 @@
     {
       <p>@Model</p>
     }
+    </span>
   </div>
 </body>

@@ -1,6 +1,6 @@
 # WordCounter
 
-A simple MVC Web app to determine the frequency of a word in a phrase. 
+A simple MVC Web app to determine the frequency of a word in a phrase.
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ After cloning repo, navigate to the WordCounter directory and run the following 
 ## Prerequisites
 Current browser required to view program.
 
-[Click Here to be taken to the program](http://localhost:5000/)
+[Click Here to be taken to the program after running ```dotnet run``` in the WordCounter dir, WordCounter.Solutions/WordCounter](http://localhost:5000/)
 
 ## Specifications
 * A user can input a phrase. *This first spec contains a very simple behavior: getting a phrase input from the user.*

@@ -35,7 +35,7 @@ namespace RepeatCounter.Models
                 int i = 0;
                 while ((i = _phrase.IndexOf(_check, i)) != -1)
                 {
-                    i ++;
+                    i++;
                     count++;
                 }
                 return count;
