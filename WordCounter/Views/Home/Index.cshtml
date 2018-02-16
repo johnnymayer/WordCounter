@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://emojipedia-us.s3.amazonaws.com/thumbs/320/microsoft/58/squared-cool_1f192.png" />
+    <title>WordCounter</title>
+</head>
+<body>
+  <div class="container">
+    <form action="/result" method="post">
+      <label for="phrase">Enter a phrase: </label>
+      <input name="phrase" type="text" required="true">
+      <label for="check">Enter a word to see its frequency in your phrase: </label>
+      <input name="check" type="text" required="true">
+      <button type="submit" class="button">Check!</button>
+  </div>
+  <div class="container">
+      <p>@Model</p>
+  </div>
+</body>

@@ -15,14 +15,14 @@ namespace RepeatCounter.Controllers
             return View("Index", "");
         }
 
-        // [HttpPost("/result")]
-        // public ActionResult Result()
-        // {
-        //     string phraseVal = Request.Form["phrase"];
-        //     string checkVal = Request.Form["check"];
-        //     RepeatCounterCreator newRepeatCounterCreator = new RepeatCounterCreator(phraseVal, checkVal);
-        //     string model = newRepeatCounterCreator.RepeatCounter.CountStringOccurences(phraseVal, checkVal);
-        //     return View("Index", model);
-        // }
+        [HttpPost("/result")]
+        public ActionResult Result()
+        {
+            string phraseVal = Request.Form["phrase"];
+            string checkVal = Request.Form["check"];
+            RepeatCounterCreator newRepeatCounterCreator = new RepeatCounterCreator(phraseVal, checkVal);
+            int model = RepeatCounterCreator.CountTool.CountStringOccurences(phraseVal, checkVal);
+            return View("Index", model);
+        }
     }
 }
