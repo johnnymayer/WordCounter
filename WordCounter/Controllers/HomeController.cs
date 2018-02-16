@@ -12,17 +12,17 @@ namespace RepeatCounter.Controllers
         [HttpGet("/")]
         public ActionResult Index()
         {
-            return View("Index", "")
+            return View("Index", "");
         }
 
-        [HttpPost("/result")]
-        public ActionResult Result()
-        {
-            string phraseVal = Request.Form["phrase"];
-            string checkVal = Request.Form["check"];
-            RepeatCounterCreator newRepeatCounterCreator = new RepeatCounterCreator(phraseVal, checkVal);
-            string model = newRepeatCounterCreator.TextTools.CountStringOccurences(phraseVal, checkVal);
-            return View("Index", model);
-        }
+        // [HttpPost("/result")]
+        // public ActionResult Result()
+        // {
+        //     string phraseVal = Request.Form["phrase"];
+        //     string checkVal = Request.Form["check"];
+        //     RepeatCounterCreator newRepeatCounterCreator = new RepeatCounterCreator(phraseVal, checkVal);
+        //     string model = newRepeatCounterCreator.RepeatCounter.CountStringOccurences(phraseVal, checkVal);
+        //     return View("Index", model);
+        // }
     }
 }

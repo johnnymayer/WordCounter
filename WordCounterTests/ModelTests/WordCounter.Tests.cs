@@ -19,11 +19,28 @@ namespace RepeatCounter.TestTools
 
             //act
             string targetPhrase = newRepeatCounterCreator.GetPhrase();
-            string targetCheck = newRepeatCounterCreator.Getcheck();
+            string targetCheck = newRepeatCounterCreator.GetCheck();
 
             //assert
             Assert.AreEqual(testPhrase, targetPhrase);
             Assert.AreEqual(testCheck, targetCheck);
+        }
+
+        [TestMethod]
+        public void CountStringOccurences_TestMethod_Int()
+        {
+            //Arrange
+            string testPhrase = "This phrase is an input phrase from the user.";
+            string testCheck = "phrase";
+            RepeatCounterCreator newRepeatCounterCreator = new RepeatCounterCreator("This phrase is an input phrase from the user.", "phrase");
+
+            //Act
+            int target = 2;
+
+            //Assert
+            Assert.AreEqual(target, 2);
+
+
         }
 
     }
