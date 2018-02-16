@@ -1,0 +1,15 @@
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/obj/Debug/netcoreapp1.1/WordCounterTests.csproj.CoreCompileInputs.cache
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/obj/Debug/netcoreapp1.1/WordCounterTests.AssemblyInfoInputs.cache
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/obj/Debug/netcoreapp1.1/WordCounterTests.AssemblyInfo.cs
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/bin/Debug/netcoreapp1.1/WordCounterTests.deps.json
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/bin/Debug/netcoreapp1.1/WordCounterTests.runtimeconfig.json
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/bin/Debug/netcoreapp1.1/WordCounterTests.runtimeconfig.dev.json
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/bin/Debug/netcoreapp1.1/WordCounterTests.dll
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/bin/Debug/netcoreapp1.1/WordCounterTests.pdb
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/bin/Debug/netcoreapp1.1/WordCounter.dll
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/bin/Debug/netcoreapp1.1/WordCounter.pdb
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/obj/Debug/netcoreapp1.1/WordCounterTests.dll
+/Users/johnnymayer/Desktop/WordCounter.Solutions/WordCounterTests/obj/Debug/netcoreapp1.1/WordCounterTests.pdb
