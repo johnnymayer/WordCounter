@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Collections;
 using RepeatCounter.Models;
 using System;
 
@@ -24,12 +25,6 @@ namespace RepeatCounter.Models
         public string Getcheck()
         {
             return _check;
-        }
-
-        public string ReturnRepeatCounterCreator()
-        {
-            RepeatCounterCreator newRepeatCounterCreator = new RepeatCounterCreator(_phrase, _check);
-            return "value";
         }
     }
 }

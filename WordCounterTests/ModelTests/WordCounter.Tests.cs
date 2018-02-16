@@ -1,5 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RepeatCounter.Models;
+using System.Collections;
+using System.Collections.Generic;
 using System;
 
 namespace RepeatCounter.TestTools
@@ -23,5 +25,6 @@ namespace RepeatCounter.TestTools
             Assert.AreEqual(testPhrase, targetPhrase);
             Assert.AreEqual(testCheck, targetCheck);
         }
+
     }
 }
