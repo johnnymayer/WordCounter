@@ -35,11 +35,10 @@ namespace RepeatCounter.TestTools
             RepeatCounterCreator newRepeatCounterCreator = new RepeatCounterCreator("This phrase is an input phrase from the user.", "phrase");
 
             //Act
-            int target = 2;
+            int target = RepeatCounterCreator.CountTool.CountStringOccurences(testPhrase, testCheck);
 
             //Assert
             Assert.AreEqual(target, 2);
-
 
         }
 
