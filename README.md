@@ -1,6 +1,6 @@
-# DayFinder
+# WordCounter
 
-A simple MVC Web app to determine what day of the week a specific date fell on.
+A simple MVC Web app to determine the frequency of a word in a phrase. 
 
 ## Getting Started
 
